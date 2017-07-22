@@ -1,9 +1,10 @@
 <DOCtype html>
     <html>
         <head>
-        <center>
-        <h1>Lamb-Burger</h1>
+        <center>     
+        <h1 style="font-family:verdana;">Lamb-Burger</span></h1>
         </center>
+        </head>
         <hr>
   <table border="0" width="200">
       <tr>
@@ -15,28 +16,7 @@
   </table>
   <hr>
   <br>
-  <!-- I don't think this one is w/ center tags -->
   
-
-
-<!-- 
-    You are mostly there on this one. You have all the elements you need for
-    the form. Just need to use a table to get them to line up nice...
-
-    there's a table set up after your /form tag below
-
--->
-
-<!-- you only need one "form" tag (for any one corresponding /form tag, or think of it like one to one submit button) -->
-  
-    <!---  Name: <input type="test" name="myTextInput"/>
-      <br>
-            <!-- so you don't need this one... -->
-      
-      
-      
-            <!-- or this one... -->
-      
         
         
 
@@ -44,26 +24,19 @@
 
 
 
-<!-- when i am building something structural like a table, I like to
-    lay it out first, *before* I start putting things in it...
 
-    its pretty easy to make one row the way you like it, then count
-    how many total you need, and just do a quick copy/paste until you've 
-    set up enough rows for the job
-
-    here is a table for you -->
 <form action="fakePage.html" method="POST">
 <table align="center">
     <tr>
-        <td align="right">Name:</td>
+        <td align="right"><b>Name:</td>
         <td><input type="test" name="myTextInput"/></td>
     </tr>
     <tr>
-        <td align="right">Email:</td>
+        <td align="right"><b>Email:</td>
         <td><input type="test" name="myTextInput"></td>
     </tr>
     <tr>
-        <td align="right">Reason for Inquiry:</td>
+        <td align="right"><b>Reason for Inquiry:</td>
         <td><select name="phones">
         <option value="Catering">Catering</option>
         <option value="Private Party">Private Party</option>
@@ -73,16 +46,16 @@
         </td>
     </tr>
     <tr>
-        <td align="right">Additional Information:</td>
+        <td align="right"><b>Additional Information:</td>
         <td><textarea style ="width:146px; height:100px"></textarea></td>
     </tr>
     <tr>
-        <td align="right">Have you been to the resturant before? </td>
+        <td align="right"><b>Have you been to the resturant before? </td>
         <td><input type="radio" name="answer" values="No"/>No</>
 <input type="radio" name="answer" values="Yes"/>Yes</td>
     </tr>
     <tr>
-        <td align="right">Best Days to Contact You</td>
+        <td align="right"><b>Best Days to Contact You</td>
         <td> <input type="radio" name="answer" value="Yes"/>M</>
     <input type="radio" name="answer" value="No"/>T</> 
     <input type="radio" name="answer" value="Yes" />W</>
